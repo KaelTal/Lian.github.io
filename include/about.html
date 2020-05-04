@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Guy</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../css/mdb.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+    <div class="wrapper">
+      <!-- header -->
+      <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand"><img src="../img/logo.jpg" alt=""></a>
+          <!-- burg-menu -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#idproduct">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- element-menu -->
+          <div class="collapse navbar-collapse" id="idproduct">
+              <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link active nav-href">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link nav-href">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a href="portfolio.html" class="nav-link nav-href">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a href="Blog.html" class="nav-link nav-href">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a href="Contact.html" class="nav-link nav-href">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- body -->
+      <div class="container-fluid slider" style="padding: 0">
+        <div id="carouselExampleIndecators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/aboutHead.jpg" class="d-block w-100" ><!-- Чтобы изменить картинки необходимо поминять пути в теге img -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container aboutBody">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="../img/bodyElement.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h4 class="aboutTitle">OUR STORY</h4>
+            <p class="aboutText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+            <p class="aboutText">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+            <h4 class="aboutTitle">OUR SKILLS</h4>
+            <div class="range">
+              <strong class="titleRange">PHOTOSHOP</strong>
+              <output for="range" id='volume'>90</output>
+              <input type="range" id="range" min="0" max="100" value="90" step="1" oninput="photoshopUpdata(value)">
+              <strong class="titleRange">BRANDING</strong>
+              <output for="range" id='volumeBranding'>95</output>
+              <input type="range" id="range" min="0" max="100" value="95" step="1" oninput="brandingUpdata(value)">
+              <strong class="titleRange">PHOTOGRAPGHY</strong>
+              <output for="range" id='volumePhoto'>50</output>
+              <input type="range" id="range" min="0" max="100" value="50" step="1" oninput="photoUpdata(value)">
+              <strong class="titleRange">WEB DESIGN</strong>
+              <output for="range" id='volumeDesign'>85</output>
+              <input type="range" id="range" min="0" max="100" value="85" step="1" oninput="designUpdata(value)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container team">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h2>AWESOME TEAM</h2>
+          </div>
+          <div class="col-lg-12 ">
+            <p class="aboutText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="../img/Lianabout.jpg" alt="">
+            <h4>LIAN JOY</h4>
+            <strong class="aboutCEO">CEO/Founder</strong>
+            <p class="aboutText padding">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="../img/Alebertabout.jpg" alt="">
+            <h4>ALEBERT THANH</h4>
+            <strong class="aboutCEO">CEO/Founder</strong>
+            <p class="aboutText padding">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="../img/Jennabout.jpg" alt="">
+            <h4>JENN PEREIRA</h4>
+            <strong class="aboutCEO">CEO/Founder</strong>
+            <p class="aboutText padding">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>
+      </div>
+  <!-- footer -->
+  <footer class="container-fluid footer">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-12 logo">
+          <img src="../img/logo.jpg" alt="">
+        </div>
+        <hr style="width: 100%; height: 5px">
+        <div class="col-lg-12 social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+        <hr style="width: 100%; height: 5px">
+        <div class="col-lg-12">
+          <p class="by">&copy; 2019 Mulitix Theme by ThemeForces. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="../js/mdb.min.js"></script>
+<link href="../css/style.css" rel="stylesheet">
+<script type="text/javascript">
+    function photoshopUpdata(vol) {
+    var output = document.querySelector('#volume');
+    output.value = vol;
+    output.style.left = vol - 20 + 'px';
+  };
+    function brandingUpdata(vol) {
+    var output = document.querySelector('#volumeBranding');
+    output.value = vol;
+    output.style.left = vol - 20 + 'px';
+  }
+    function photoUpdata(vol) {
+    var output = document.querySelector('#volumePhoto');
+    output.value = vol;
+    output.style.left = vol - 20 + 'px';
+  }
+    function designUpdata(vol) {
+    var output = document.querySelector('#volumeDesign');
+    output.value = vol;
+    output.style.left = vol - 20 + 'px';
+  }
+</script>
+</body>

@@ -1,0 +1,169 @@
+body{
+	background-color: #fafafa;
+
+}
+/*header*/
+.headline{
+	color: #4a4a4a;
+}
+.nav-link{
+	font-size: 20px;
+	color: #919191;
+	margin-right: 50px;
+	size: 40px
+}
+.nav-href:hover.nav-href{
+	color: black
+}
+/*slider*/
+.text{
+	width: 30%;
+	z-index: 1;
+	top: 400px;
+	left: 35%;
+	position: absolute;
+}
+.content{
+	background-color:black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.PS{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.slider{
+	z-index: -1;
+}
+/*tab-nav*/
+.tab-nav-element{
+	color:#777777;
+	font-size: 20px;
+}
+.tab-nav-element:hover.tab-nav-element{
+	color: black
+}
+/*body*/
+.img-body:hover.img-body{
+	background-color: #7c7c7c;
+	opacity: .4;
+}
+/*load-more*/
+.load-more{
+	font-size: 20px;
+	background-color: #959595;
+	margin-top: 40px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: white;
+}
+/*footer*/
+.footer{
+	margin-top: 40px;
+	padding-top: 40px;
+	background-color: white;
+}
+.logo{
+	padding-bottom: 40px;
+}
+.social a{
+	font-size: 20px;
+	padding: 20px;
+}
+.fab{
+	color: #8c8c8c;
+}
+.by{
+	color: #b8b8b8;
+}
+
+.aboutBody{
+	margin-top: 60px;
+}
+.aboutTitle{
+	color: #252525;
+	font-size: 20px;
+	padding-bottom: 60px;
+}
+.aboutText{
+	padding-bottom: 30px;
+	color: #979797;
+	font-size: 13px;
+}
+#range{
+	width: 100%;
+	-webkit-appearance: none;
+	background: #a1a1a1;
+	height: 7px;
+}
+#volume {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+}
+#volumeBranding{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+}
+#volumePhoto{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+}
+#volumeDesign{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.titleRange{
+	font-size: 18px;
+}
+.team{
+	margin-top: 40px;
+}
+.padding{
+	padding-top:20px;
+}
+.aboutCEO{
+	color: #777777;
+}
+.share{
+	background-color: #d3d4d6;
+	border-radius: 5px;
+}
+#map{
+	width: 100%;
+	height: 500px;
+	padding:0px;
+}
+.wordress{
+	background-color: black;
+	border-radius: 2px;
+	width: 40%;
+}
+.posts{
+	margin-top: 20px;
+	background-color: #ebebeb;
+	border-radius: 3px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.tags:hover.tags{
+	border: 2px solid #ebebeb;
+	opacity: 0.5
+}
+@media  screen and (max-width: 1262px){
+	.text{ display: none;
+}
